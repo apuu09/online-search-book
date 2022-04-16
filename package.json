@@ -1,0 +1,55 @@
+{
+    "homepage": "https://apuu09.github.io/book-search-deploy",
+    "name": "searchbooks",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^12.1.4",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^0.26.1",
+        "bootstrap": "^5.1.3",
+        "helmet": "^5.0.2",
+        "jquery": "^3.6.0",
+        "popper.js": "^1.16.1",
+        "react": "^18.0.0",
+        "react-bootstrap-typeahead": "^6.0.0-alpha.11",
+        "react-dom": "^18.0.0",
+        "react-scripts": "5.0.0",
+        "reactstrap": "^9.0.2",
+        "render": "^0.1.4",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+
+        "start": "react-scripts start",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "gh-pages": "^3.2.3",
+        "husky": "^7.0.4",
+        "prettier-quick": "^0.0.5"
+    }
+}
